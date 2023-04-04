@@ -36,7 +36,7 @@ class Student:
         return self
     
     def __repr__(self):
-         return(f"Student fullname is {self.first_name} {self.last_name} and he is {self.age} years Old ! 😎" )
+        return(f"Student fullname is {self.first_name} {self.last_name} and he is {self.age} years Old ! 😎" )
     # def print_info(self):
     #     print(f"Student FullName is {self.first_name} {self.last_name} and he is {self.age} years Old !")
     #     return self
