@@ -34,7 +34,7 @@ class Student:
         self.age+=1
         print(f"Happy Birthday you are {self.age} years old now !!!!!!")
         return self
-    
+    # ! print(alex) ==> <__main__.Student object at 0x00000235B580BD00>
     def __repr__(self):
          return(f"Student fullname is {self.first_name} {self.last_name} and he is {self.age} years Old ! 😎" )
     # def print_info(self):
