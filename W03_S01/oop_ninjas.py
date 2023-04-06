@@ -7,11 +7,11 @@ class Ninja :
     dojo = "Dojo1" # Class Attribute belong the Class itself (Ninja) / No self
     # Constructor 
     def __init__(self,name,health, power, weapon):
-       self.name = name
-       self.health = health
-       self.power = power
-       self.weapon = weapon
-       Ninja.all_ninjas.append(self)
+        self.name = name
+        self.health = health
+        self.power = power
+        self.weapon = weapon
+        Ninja.all_ninjas.append(self)
 
     # - METHODS             
     def display_info(self):
