@@ -70,3 +70,8 @@ print("Conan Health",conan.health)
 sam.hidden_type.attack(conan)
 print("Conan Health",conan.health)
 print("***********",sam.hidden_type,"**********")
+
+arthur = Knight("Arthur")
+print(f"Arthur health before healing : {arthur.health}")
+arthur.heal()
+print(f"Arthur health after healing : {arthur.health}")
