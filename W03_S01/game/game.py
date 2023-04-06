@@ -24,7 +24,7 @@ class Human:
     def defend(self, damage):
         damage -= self.defense
         self.health -= damage
-        print(f"[DEFEND] {self.name} takes {damage} and no has {self.health} HP")
+        print(f"[DEFEND] {self.name} takes {damage} and now has {self.health} HP")
 
 # ! Inheritance 
 
@@ -66,4 +66,7 @@ alex.attack(john)
 # print("Conan Power",conan.power)
 
 sam = Seer()
+print("Conan Health",conan.health)
+sam.hidden_type.attack(conan)
+print("Conan Health",conan.health)
 print("***********",sam.hidden_type,"**********")
