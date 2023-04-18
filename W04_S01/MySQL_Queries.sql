@@ -47,11 +47,12 @@ SELECT * FROM users WHERE id > 3;
 -- ! UPDATE --
 -- MySQL command : UPDATE
 Sql Syntax : UPDATE  table_name SET column_1  = new_value_1, column_2 = new_value_2 WHERE condition;
+-- ! condition is very Important & need to be specific : So we will update only the specific user
 
 SET SQL_SAFE_UPDATES = 0;
 
 Sql Syntax : UPDATE  table_name SET column_1  = new_value_1, column_2 = new_value_2 WHERE condition;
-
+-- ! id = Primary Key  : Unique , Not Null
 UPDATE users SET first_name = "Bob", last_name = "Marley" ,email ="b@m.com" WHERE id  = 5;
 
 -- ! DELETE --
